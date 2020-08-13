@@ -5,7 +5,7 @@ This practical is intended to get you used to github submission of lab practical
 
 Clone this repository, create your own branch (your netid) and modify the practical.sh script to :
 
-1. Output to the command line the branch and weather or not your branch is up to date with the master branch. 
+1. Output to the command line the branch and whether or not your branch is up to date with the master branch. 
 2. List every commit, but only the last two changes in each commit. 
 3. List all branches that have not been merged in the current repository. 
 4. List the author of the first line of practical.sh
