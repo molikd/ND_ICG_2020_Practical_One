@@ -3,7 +3,8 @@
 # Best of luck!
 
 # 1. Output to the command line the branch and weather or not your branch is up to date with the master branch. 
-echo -e "\nAnswer One\n"
+echo -e "\nOutput the branch and any files that have been modified from master:\n"
+git status -uno
 
 # 2. List every commit, but only the last two changes in each commit. 
 echo -e "\nAnswer Two\n"
