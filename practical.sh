@@ -12,9 +12,9 @@ git log --pretty=oneline
 # 3. List all branches that have not been merged in the current repository. 
 echo -e "\nAnswer Three\n"
 #List branches that have not been merged into the current head
-git branch --no-merged
+#git branch --no-merged
 #List branches that have not been merged into master
-#git branch --no-merged master
+git branch --no-merged master
 
 # 4. List the author of the first line of practical.sh
 echo -e "\nAnswer Four\n"
