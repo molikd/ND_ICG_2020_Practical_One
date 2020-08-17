@@ -7,9 +7,17 @@ git status
 # 2. List every commit, but only the last two changes in each commit. 
 echo -e "\nAnswer Two\n"
 #List every commit, one per line
-git log --pretty=oneline
-#List the last two commits
+#git log --pretty=oneline
+#List the last two commits, one per line
 #git log --pretty=oneline -2
+#List every commit, with patch output
+#git log -p
+#List the last two commits, with patch output
+#git log -p -2
+#List every commit, with number of changes to each file
+#git log --stat
+#List the last two commits, with number of changes to each file
+git log --stat -2
 
 # 3. List all branches that have not been merged in the current repository. 
 echo -e "\nAnswer Three\n"
